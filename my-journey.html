@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Configurações básicas do código para correta interpretação pelo navegador. -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <!-- Título da página, irá aparecer no nome da guia -->
+    <title>Minha Jornada</title>
+    <link rel="stylesheet" href="./styles/style-my-jouney.css" />
+
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div id="title">
+        <a href="./index.html" class="logo">Principal</a>
+      </div>
+      <ul>
+        <a href="#" onclick="setContent(0)"><li>Introdução</li></a>
+        <a href="#" onclick="setContent(1)"><li>Transville</li></a>
+        <a href="#" onclick="setContent(2)"><li>Quimidrol</li></a>
+        <a href="#" onclick="setContent(3)"><li>Tiflux</li></a>
+        <a href="#" onclick="setContent(4)"><li>Motorista de aplicativo</li></a>
+        <a href="#" onclick="setContent(5)"><li>Futuro</li></a>
+      </ul>
+    </header>
+    <main onload="setContent(0)">
+      <aside class="sobre">
+        <h1 id="contentTitle">Título</h1>
+        <p id="contentText">Conteúdo do texto.</p>
+      </aside>
+
+      <article>
+        <img
+          src="./images/introducao.png"
+          alt="Lucas Santos usando um terno bege com uma gravata terracota"
+        />
+      </article>
+    </main>
+  </body>
+</html>
