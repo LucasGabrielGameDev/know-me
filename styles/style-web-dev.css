@@ -9,37 +9,6 @@ body {
   background-size: cover;
 }
 
-header {
-  padding: 0 20%;
-  max-width: 1200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#title {
-  padding: 10px;
-  flex-direction: column;
-  line-height: 10px;
-}
-
-li {
-  display: inline-block;
-  margin: 20px;
-}
-
-a {
-  color: #f1cdb5;
-}
-a:hover {
-  color: black;
-  transition: 0.3s all;
-}
-
-h1 {
-  font-weight: 200;
-}
 .wrapper {
   width: 100%;
   margin: 0 auto;
@@ -120,7 +89,15 @@ section.module.parallax::after {
 }
 
 section.module.project1 {
-  background-image: url("https://api.lorem.space/image/face?w=1280&amp;amp;amp;amp;h=600");
+  background-image: url("../images/parallax.png");
+}
+
+section.module.project2 {
+  background-image: url("../images/landingpage.png");
+}
+
+section.module.project3 {
+  background-image: url("../images/cartaovisita.png");
 }
 
 section.module.parallax h1 {

@@ -88,24 +88,16 @@ section.module.parallax::after {
   );
 }
 
-section.module.transville {
-  background-image: url("../images/transville.png");
+section.module.game1 {
+  background-image: url("../images/parallax.png");
 }
 
-section.module.quimidrol {
-  background-image: url("../images/quimidrol.png");
+section.module.game2 {
+  background-image: url("../images/landingpage.png");
 }
 
-section.module.tiflux {
-  background-image: url("../images/tiflux.png");
-}
-
-section.module.uber {
-  background-image: url("../images/uber.jpg");
-}
-
-section.module.futuro {
-  background-image: url("../images/futuro.jpg");
+section.module.game3 {
+  background-image: url("../images/cartaovisita.png");
 }
 
 section.module.parallax h1 {

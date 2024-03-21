@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  flex-direction: column;
+  line-height: 10px;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+a {
+  position: relative;
+  color: #f1cdb5;
+}
+a:hover {
+  color: black;
+  /* transition: 0.3s all; */
+}
+
+a::before {
+  transition: 0.3s all;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  width: 0;
+  height: 2px;
+  background: black;
+}
+
+a:hover::before {
+  width: 80%;
+}
+
+h1 {
+  font-weight: 200;
+}
