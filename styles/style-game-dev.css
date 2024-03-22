@@ -8,7 +8,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .wrapper {
   width: 100%;
   margin: 0 auto;
@@ -89,15 +88,19 @@ section.module.parallax::after {
 }
 
 section.module.game1 {
-  background-image: url("../images/parallax.png");
+  background-image: url("../images/gunsbox.png");
 }
 
 section.module.game2 {
-  background-image: url("../images/landingpage.png");
+  background-image: url("../images/keeptrying.png");
 }
 
 section.module.game3 {
-  background-image: url("../images/cartaovisita.png");
+  background-image: url("../images/squiresprayer.jpg");
+}
+
+section.module.game4 {
+  background-image: url("../images/projetoadam.png");
 }
 
 section.module.parallax h1 {
